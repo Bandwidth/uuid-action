@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  schemaVersion: v1.0.0
+  name: uuid-action
+  description: |-
+    GitHub Action to create generate UUIDs.
+  annotations:
+    github.com/project-slug: Bandwidth/uuid-action
+    organization: BW
+    costCenter: Development - Software Infra
+spec:
+  type: GitHub Action
+  owner: github/band-swi
+  lifecycle: production
